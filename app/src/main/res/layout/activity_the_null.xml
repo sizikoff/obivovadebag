@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.obitestvernull.theNullModule.TheNullActivity"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/obi_picture"
+        android:scaleType="fitStart"/>
+
+    <Button
+        android:id="@+id/buttonGetOtherStoreInNullAct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="выбрать магазин вручную"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonTheNearestStore"
+        android:background="@drawable/button_find_product"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/buttonTheNearestStore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="получить ближайший магазин ОБИ"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/button_find_product"
+        android:padding="5dp"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/akzii"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_find_product"
+        android:padding="5dp"
+        android:text="Акции"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.679" />
+
+</android.support.constraint.ConstraintLayout>

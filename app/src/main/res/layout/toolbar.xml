@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="0dp"
+    app:elevation="0dp">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ToolBarStyle"
+        android:weightSum="1"
+        app:elevation="0dp" >
+
+        <Button
+            android:id="@+id/buttonInToolBarInThirdMA"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:hint="Поиск"
+            android:textColorHint="@android:color/white"
+            android:background="@drawable/button_find_product"
+            android:layout_marginLeft="40dp"/>
+
+    </android.support.v7.widget.Toolbar>
+
+</android.support.design.widget.AppBarLayout>

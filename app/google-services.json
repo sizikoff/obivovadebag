@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "221881517380",
+    "firebase_url": "https://obi-android-native-app.firebaseio.com",
+    "project_id": "obi-android-native-app",
+    "storage_bucket": "obi-android-native-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221881517380:android:f8770aa16de1350f",
+        "android_client_info": {
+          "package_name": "com.ObiTestVerNull"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "221881517380-fu3sr88k5iesshk89l7istb7ggfto2gg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPpYJIp2cji58MyyCNdMJVbovybYNYqVc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

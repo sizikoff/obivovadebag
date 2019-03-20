@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.obitestvernull.ActivityVova.ActivityVova">
+
+    <include
+        android:id="@+id/toolbarTop"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <fragment
+        android:id="@+id/akziiFragment"
+        android:name="com.obitestvernull.ActivityVova.fragments.fragmentAkzii.fragment.FragmentAkzii"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/toolbarTop" />
+
+    <fragment
+        android:id="@+id/popularFragment"
+        android:name="com.obitestvernull.ActivityVova.fragments.fragmentPopular.fragment.FragmentPopular"
+        android:layout_width="match_parent"
+        android:layout_height="452dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/toolbarTop" />
+
+</LinearLayout>
+
