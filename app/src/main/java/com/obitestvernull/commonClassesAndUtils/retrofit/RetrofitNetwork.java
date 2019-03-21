@@ -35,6 +35,6 @@ public interface RetrofitNetwork {
     @GET("api/getGoodsListByStore?store_id=2")
     Call<List<Popular>> getPopular();
 
-    @GET("api/getGoodsListByStore?store_id=2")
+    @GET("api/getGoodsListByStoreWithAvailable?store_id=27")
     Call<List<ItemOfCard>>getCartochka();
 }

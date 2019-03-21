@@ -13,12 +13,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-        <ImageView
-            android:id="@+id/kartinkatovara"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/test"
-            android:layout_gravity="center"/>
+    <ImageView
+        android:id="@+id/kartinkatovara"
+        android:layout_width="280dp"
+        android:layout_height="202dp"
+        android:layout_gravity="center"
+        android:src="@drawable/zaglushka" />
 
         <android.support.v4.widget.NestedScrollView
             android:layout_width="match_parent"
@@ -125,7 +125,7 @@
                                 android:id="@+id/kolichestvo"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="В наличии:81шт"
+                                android:text=""
                                 android:textColor="#000000"
                                 android:textSize="18sp"
                                 android:textStyle="bold" />
@@ -229,7 +229,7 @@
                         android:layout_marginLeft="4dp"
                         android:layout_marginRight="4dp"
                         android:layout_marginTop="16dp"
-                        android:text="В этом году ваш урожай побьет все рекорды! С каркасным парником вы можете не беспокоиться за сохранность рассады. Компактная и прочная конструкция защитит всходы от заморозков и осадков, обеспечит оптимальный рост и развитие саженцев."
+                        android:text=""
                         android:textColor="#6e6e6e"
                         android:textSize="18sp" />
 
