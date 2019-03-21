@@ -23,24 +23,9 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 public class CartochkaFragment extends Fragment {
-
-    ImageView imageView;
-    TextView priceCard;
-    TextView id_cartochka;
-    TextView nameCard;
-    TextView kolichestvo;
-    TextView infoCard;
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_cartochka, container, false);
-        imageView = view.findViewById(R.id.kartinkatovara);
-        priceCard = view.findViewById(R.id.priceCard);
-        id_cartochka = view.findViewById(R.id.id_cartochka);
-        nameCard = view.findViewById(R.id.nameProd);
-        kolichestvo = view.findViewById(R.id.kolichestvo);
-        infoCard = view.findViewById(R.id.infoCard);
-
         return view;
     }
 }

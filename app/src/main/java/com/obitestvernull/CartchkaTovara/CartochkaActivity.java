@@ -51,16 +51,15 @@ public class CartochkaActivity extends AppCompatActivity {
             public void onResponse(Call<List<ItemOfCard>> call, Response<List<ItemOfCard>> response) {
                 ArrayList<ItemOfCard> itemPopular = (ArrayList<ItemOfCard>) response.body();
                 //парсинг картинки
-                String src = "https"+  (itemPopular.get(0).getImage().substring(4));
+                String src = "https" +  (itemPopular.get(0).getImage().substring(4));
                 Log.i(TAG,src);
                 Picasso.with(getBaseContext()).load(src).resize(600, 600).into(imageView);
-                //парс цены
+                //парс остального
                 priceCard.setText(itemPopular.get(0).getPrice());
                 id_cartochka.setText("№"+itemPopular.get(0).getObiId());
                 nameCard.setText(itemPopular.get(0).getName());
                 kolichestvo.setText("В наличии: " + itemPopular.get(0).getQuantity());
                 infoCard.setText(itemPopular.get(0).getDescription());
-
             }
 
             @Override
