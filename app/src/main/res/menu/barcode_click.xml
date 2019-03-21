@@ -9,4 +9,8 @@
         android:icon="@drawable/ic_product"
         app:showAsAction="always"
         android:title="Product" />
+    <item android:id="@+id/cartochkaIcon"
+        android:icon="@drawable/ic_cartochka"
+        app:showAsAction="always"
+        android:title="CArt" />
 </menu>

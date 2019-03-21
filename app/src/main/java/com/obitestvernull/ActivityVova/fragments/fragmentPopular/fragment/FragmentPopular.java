@@ -39,7 +39,6 @@ public class FragmentPopular extends Fragment implements ContractModulePopular.M
 
     @Override
     public void setRecyclerPopular(ArrayList<Popular> itemAkziis) {
-        Log.d(TAG, "БЛЯДСКИЙ РЕСАЙКЛ");
         RecyclerViewPopularAdapter adapter1 = new RecyclerViewPopularAdapter(getContext(), itemAkziis);
         recyclerViewPop.setAdapter(adapter1);
     }

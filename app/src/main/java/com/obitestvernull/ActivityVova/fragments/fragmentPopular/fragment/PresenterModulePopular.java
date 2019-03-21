@@ -9,16 +9,16 @@ import java.util.ArrayList;
 public class PresenterModulePopular implements ContractModulePopular.Presenter, ContractModulePopular.ModelModulePopular.OnFinishedListenerPopular {
 
     private ContractModulePopular.MainView mainView;
-    private ContractModulePopular.ModelModulePopular modelModuleAkzii;
+    private ContractModulePopular.ModelModulePopular modelModulePopular;
     private static final String TAG = "PopularImage";
 
     public PresenterModulePopular(ContractModulePopular.MainView mainView, ContractModulePopular.ModelModulePopular modelModuleAkzii) {
         this.mainView = mainView;
-        this.modelModuleAkzii = modelModuleAkzii;
+        this.modelModulePopular = modelModuleAkzii;
     }
     @Override
     public void akziiPres() {
-        modelModuleAkzii.modelRetrofit(this);
+        modelModulePopular.modelRetrofit(this);
     }
 
     @Override

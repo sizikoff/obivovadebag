@@ -16,7 +16,6 @@ public class ActivityVova extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vova);
-
         fragmentAkzii = new FragmentAkzii();
         loadFragment(fragmentAkzii);
 

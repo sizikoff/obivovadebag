@@ -19,6 +19,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.geolocationcheckautomaticly.R;
+import com.obitestvernull.CartchkaTovara.CartochkaActivity;
 import com.obitestvernull.barCodeReaderModule.BarCodeActivity;
 import com.obitestvernull.fifthModuleProductCard.ProductActivity;
 import com.obitestvernull.fourthModuleFindProducts.ActivityFour.ActivityFour;
@@ -108,6 +109,9 @@ public class ThirdModuleActivity extends AppCompatActivity implements ContractMo
                 Intent intent1 = new Intent(getBaseContext(), ProductActivity.class);
                 startActivity(intent1);
                 return true;
+            case R.id.cartochkaIcon:
+                Intent intent2 = new Intent(getBaseContext(), CartochkaActivity.class);
+                startActivity(intent2);
             default:
                 return super.onOptionsItemSelected(item);
         }
