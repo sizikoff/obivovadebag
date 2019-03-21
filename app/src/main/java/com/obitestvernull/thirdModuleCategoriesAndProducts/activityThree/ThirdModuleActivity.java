@@ -124,7 +124,6 @@ public class ThirdModuleActivity extends AppCompatActivity implements ContractMo
         recyclerView.setAdapter(adapter);
         LayoutAnimationController controller = AnimationUtils.loadLayoutAnimation(this, R.anim.list_layout_controller);
         recyclerView.setLayoutAnimation(controller);
-
     }
 
     //отображаем списки категорий

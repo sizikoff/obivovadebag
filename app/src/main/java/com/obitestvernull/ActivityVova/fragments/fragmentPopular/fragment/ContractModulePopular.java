@@ -14,7 +14,7 @@ public interface ContractModulePopular {
         void setRecyclerPopular(ArrayList<Popular> itemAkziis);
     }
     interface ModelModulePopular {
-        void modelRetrofit(OnFinishedListenerPopular onFinishedListenerAkzii);
+        void modelRetrofit(OnFinishedListenerPopular onFinishedListenerPopular);
         interface OnFinishedListenerPopular {
             void onFinished(ArrayList<Popular> itemAkziis);
             void onFailure(Throwable t);
